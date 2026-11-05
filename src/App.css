@@ -19,7 +19,7 @@ html{
 
 /* Navbar style */
 .little-navbar {
-    background-color: #FFFFFF;
+    background-color: #29443A;
     padding: 18px 0;
     border-bottom: 1px solid #eeeeee;
     z-index: 1000;
@@ -27,7 +27,7 @@ html{
 .little-navbar .navbar-brand {
     font-size: 26px;
     font-weight: 700;
-    color: #29443A;
+    color: #FFFFFF;
     letter-spacing: -0.5px;
     transition: 0.3s ease;
 }
@@ -35,7 +35,7 @@ html{
     color: #38574c;
 }
 .little-navbar .nav-link {
-    color: #333333;
+    color: #FFFFFF;
     font-size: 15px;
     font-weight: 500;
     margin-left: 25px;
@@ -204,6 +204,32 @@ html{
     background: #38574c;
 }
 
+.footer{
+    background-color: #29443A;
+    margin-bottom: 10px;
+}
+.footer form{
+    margin-top: 20px;
+}
+.footer-tags{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-tags p {
+    margin: 0;
+    font-size: 14px;
+}
+.footer-tags a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-left: 25px;
+    transition: 0.3s ease;
+}
+.footer-tags a:hover {
+    color: #FBFAF6;
+}
 
 
 /* RESPONSIVE MEDIA QUERIES */
@@ -275,7 +301,7 @@ html{
     }
 }
 
-/* HERO, STORY, ABOUT, CONTACT */
+/* HERO, STORY, ABOUT, CONTACT, FOOTER */
 @media (max-width: 767px) {
         /* HERO */
     .description {
@@ -352,6 +378,22 @@ html{
     .contact-content{
         margin: 20px;
     }
+
+    /* FOOTER */
+    .footer{
+        border-radius: 8px;
+    }
+     .footer-tags {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .footer-tags a {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
 }
 
 /* Small mobile screens */
