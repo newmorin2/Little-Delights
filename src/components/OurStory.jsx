@@ -3,7 +3,8 @@ function OurStory(){
         <div className="container ">
             <div className="row align-items-center description py-4">
                 <div className="col-md-6 px-4 story-image ">
-                    <img src="/images/people-holding-coffee-cups.jpg" alt="people holding coffee cups" className="img-fluid " />
+                    <img src={`${import.meta.env.BASE_URL}images/people-holding-coffee-cups.jpg`} alt="people holding coffee cups" 
+                    className="img-fluid" />
                 </div>
                 <div className="col-md-6 px-md-5 story-content">
                     <p className="text-title">OUR WAY OF DOING THINGS</p>
