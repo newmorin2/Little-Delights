@@ -28,11 +28,8 @@ function Hero() {
                 </div>
 
                 <div className="col-12 col-md-6 hero-image">
-                    <img
-                        src="/images/coffee-cup.jpg"
-                        className="img-fluid"
-                        alt="A coffee cup"
-                    />
+                    <img src={`${import.meta.env.BASE_URL}images/coffee-cup.jpg`} alt="coffee-cup" 
+                    className="img-fluid" />
                 </div>
             </div>
 
