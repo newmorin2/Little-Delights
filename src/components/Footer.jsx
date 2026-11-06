@@ -23,7 +23,7 @@ function Footer(){
             
             <div className="footer-tags">
                 <p>@2026 Little Delights. Made with Care.</p>
-                <a href="about">Our Story</a>
+                <a href="#about">Our Story</a>
                 <a href="#">Instagram</a>
             </div>            
         </div>
